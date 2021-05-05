@@ -10,11 +10,11 @@ export const Wrapper = styled.div`
 export const SomeWrapper = styled.table`
   width:300px;
   height:100px;
-  border: 2px solid black;
+  border: 3px solid black;
   margin-top: 100px;
   border-collapse: collapse;
   border-spacing: 2px;
-  border-color: darkblue;
+  border-color: Yellow;
   
 `;
 
