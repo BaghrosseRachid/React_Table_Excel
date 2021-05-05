@@ -2,7 +2,7 @@
 
 const http = require('http');
 const app = require('./app');
-
+const path =require('path')
 const normalizePort = val => {
   const port = parseInt(val, 10);
 
@@ -14,8 +14,20 @@ const normalizePort = val => {
   }
   return false;
 };
+//for production
+if (process.env.NODE_ENV === 'production') {
+  //set satatic folder
+  app.use(express.static('ReactFront/build'))
+
+  app.get('*',(req,res)=>{
+      res.sendFile(path.resolve(__dirname,'ReactFront','build','index.html'))
+  })
+}
+
 const port = normalizePort(process.env.PORT || '5000');
 app.set('port', port);
+
+
 
 const errorHandler = error => {
   if (error.syscall !== 'listen') {

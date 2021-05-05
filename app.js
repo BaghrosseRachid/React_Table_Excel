@@ -16,8 +16,8 @@ app.use((req, res, next) => {
       try{
         const students = [
           [
-            { value: 12,className:"whiteCells"},
-            { value: 13,className:"whiteCells"},
+            { value: 1,className:"whiteCells"},
+            { value: 2,className:"whiteCells"},
             { value: 14,className:"whiteCells"},
             { value: 15,className:"whiteCells"},
             { value: 18,className:"whiteCells"},
@@ -25,7 +25,7 @@ app.use((req, res, next) => {
             { value: 13,className:"whiteCells"},
             { value: 14,className:"whiteCells"},
             { value: 14,className:"whiteCells"},
-            { value: 0,className:"whiteCells"},
+            { value: 2,className:"whiteCells"},
           ],
           [
             { value: 12,className:"whiteCells"},
@@ -37,7 +37,7 @@ app.use((req, res, next) => {
             { value: 13,className:"whiteCells"},
             { value: 14,className:"whiteCells"},
             { value: 14,className:"whiteCells"},
-            { value: 0,className:"whiteCells"},
+            { value: 3,className:"whiteCells"},
           ],
           [
             { value: 12,className:"whiteCells"},
@@ -49,7 +49,7 @@ app.use((req, res, next) => {
             { value: 13,className:"whiteCells"},
             { value: 14,className:"whiteCells"},
             { value: 14,className:"whiteCells"},
-            { value: 0,className:"whiteCells"},
+            { value: 4,className:"whiteCells"},
           ],
           [
             { value: 12,className:"whiteCells"},
@@ -61,7 +61,7 @@ app.use((req, res, next) => {
             { value: 13,className:"whiteCells"},
             { value: 14,className:"whiteCells"},
             { value: 14,className:"whiteCells"},
-            { value: 0,className:"whiteCells"},
+            { value: 6,className:"whiteCells"},
           ],
           [
             { value: 12,className:"whiteCells"},
@@ -73,7 +73,7 @@ app.use((req, res, next) => {
             { value: 13,className:"whiteCells"},
             { value: 14,className:"whiteCells"},
             { value: 14,className:"whiteCells"},
-            { value: 0,className:"whiteCells"},
+            { value: 6,className:"whiteCells"},
           ],
           [
             { value: 12,className:"whiteCells"},
@@ -85,7 +85,7 @@ app.use((req, res, next) => {
             { value: 13,className:"whiteCells"},
             { value: 14,className:"whiteCells"},
             { value: 14,className:"whiteCells"},
-            { value: 0,className:"whiteCells"},
+            { value: 8,className:"whiteCells"},
           ],
           [
             { value: 12,className:"whiteCells"},
@@ -97,7 +97,7 @@ app.use((req, res, next) => {
             { value: 13,className:"whiteCells"},
             { value: 14,className:"whiteCells"},
             { value: 14,className:"whiteCells"},
-            { value: 0,className:"whiteCells"},
+            { value: 100,className:"whiteCells"},
           ],
           [
             { value: 12,className:"whiteCells"},
@@ -109,7 +109,7 @@ app.use((req, res, next) => {
             { value: 13,className:"whiteCells"},
             { value: 14,className:"whiteCells"},
             { value: 14,className:"whiteCells"},
-            { value: 0,className:"whiteCells"},
+            { value: 5,className:"whiteCells"},
           ],
           [
             { value: 12,className:"whiteCells"},
@@ -121,7 +121,7 @@ app.use((req, res, next) => {
             { value: 13,className:"whiteCells"},
             { value: 14,className:"whiteCells"},
             { value: 14,className:"whiteCells"},
-            { value: 0,className:"whiteCells"},
+            { value: 7,className:"whiteCells"},
           ],
           [
             
@@ -134,7 +134,7 @@ app.use((req, res, next) => {
             { value: 13,className:"whiteCells"},
             { value: 14,className:"whiteCells"},
             { value: 15,className:"whiteCells"},
-            { value: 0 ,className:"whiteCells"}
+            { value: 9 ,className:"whiteCells"}
           ],
           [
             { value: 15,className:"whiteCells"},
@@ -146,7 +146,7 @@ app.use((req, res, next) => {
             { value: 13,className:"whiteCells"},
             { value: 14,className:"whiteCells"},
             { value: 15,className:"whiteCells"},
-            { value: 0,className:"whiteCells" }
+            { value: 3,className:"whiteCells" }
           ],
           [
             { value: 15,className:"whiteCells"},
@@ -158,7 +158,7 @@ app.use((req, res, next) => {
             { value: 13,className:"whiteCells"},
             { value: 14,className:"whiteCells"},
             { value: 15,className:"whiteCells"},
-            { value: 0,className:"whiteCells"}
+            { value: 9,className:"whiteCells"}
           ],
         
         ];

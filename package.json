@@ -7,7 +7,8 @@
     "start": "node server",
     "server": "nodemon server",
     "ReactFront": "npm start --prefix ReactFront",
-    "dev": "concurrently \"npm run server\" \"npm run ReactFront\""
+    "dev": "concurrently \"npm run server\" \"npm run ReactFront\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix ReactFront && npm run build --prefix ReactFront"
   },
   "author": "Baghrosse",
   "license": "ISC",
