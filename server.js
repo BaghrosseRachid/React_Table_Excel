@@ -14,6 +14,7 @@ const normalizePort = val => {
   }
   return false;
 };
+
 //for production
 if (process.env.NODE_ENV === 'production') {
   //set satatic folder

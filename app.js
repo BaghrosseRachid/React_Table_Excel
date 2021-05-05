@@ -11,7 +11,7 @@ app.use((req, res, next) => {
 
 
   // get all students
-  app.get('/api/students', (req, res,next) => {
+  app.get('/api/students', (req, res) => {
   
       try{
         const students = [
