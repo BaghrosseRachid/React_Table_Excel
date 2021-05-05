@@ -34,7 +34,7 @@ const TableExcel = () => {
 
   const getData = async () => {
     await axios
-      .get("http://localhost:5000/api/students")
+      .get("https://node-excel.herokuapp.com/api/students")
       .then((res) => {
         setGrid(res.data);
       })
